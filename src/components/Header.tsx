@@ -24,7 +24,7 @@ export const Header: React.FunctionComponent<{}> = () => {
           >
             <Nav.Item>Resume</Nav.Item>
           </Nav.Link>
-          <Nav.Link href="/FirstComponent">
+          <Nav.Link href="/Recordings">
             <Nav.Item>Recordings</Nav.Item>
           </Nav.Link>
         </Nav>
