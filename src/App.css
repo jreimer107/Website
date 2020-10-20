@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-#App {
+#landing-page {
   background-image: url("assets/bg-2-full.jpg");
   position: fixed;
   min-width: 100%;
@@ -122,4 +122,16 @@
 .skills strong {
   font-size: 3em;
   color: black;
+}
+
+.recordings {
+  background-image: url("assets/bg-2-full.jpg");
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.recording {
+  margin: 4px;
+  padding: 4px;
 }

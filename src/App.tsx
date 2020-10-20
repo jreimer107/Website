@@ -6,7 +6,7 @@ import { Container, Row, Col, Card, Image } from "react-bootstrap";
 export default class App extends React.Component<{}> {
   public render() {
     return (
-      <Container id="App" fluid>
+      <Container id="landing-page" fluid>
         <div className="centerPeice">
           <Row className="myRow">
             <Col xs={6} md={3} className="centerVertical">
