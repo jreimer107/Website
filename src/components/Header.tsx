@@ -27,6 +27,9 @@ export const Header: React.FunctionComponent<{}> = () => {
           <Nav.Link href="/Recordings">
             <Nav.Item>Recordings</Nav.Item>
           </Nav.Link>
+          <Nav.Link href="/StatblockGenerator">
+            <Nav.Item>Statblock Generator</Nav.Item>
+          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
