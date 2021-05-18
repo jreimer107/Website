@@ -125,6 +125,15 @@
 }
 
 .recordings {
+  position: fixed;
+  min-width: 100%;
+  min-height: 50%;
+  max-height: 90%;
+  scroll-behavior: auto;
+  overflow-y: scroll;
+}
+
+.background {
   background-image: url("assets/bg-2-full.jpg");
   position: fixed;
   min-width: 100%;

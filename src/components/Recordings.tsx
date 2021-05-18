@@ -1,5 +1,5 @@
 import * as React from "react";
-import firebase from "firebase/app";
+import firebase from "../config/firebaseConfig"
 import "firebase/storage";
 import Sound from "react-sound";
 import { Button } from "react-bootstrap";
@@ -42,15 +42,18 @@ export default class Recordings extends React.Component<
 
   public render() {
     return (
-      <div className="recordings">
-        <h1>(▀̿Ĺ̯▀̿ ̿)</h1>
-        <Sound url={this.state.url} playStatus={this.state.status} />
-        {this.state.recordings.map((e, i) => (
-          <div key={i} className="recording">
-            <Button onClick={() => this.play(e)}>{e.name}</Button>
-            <br />
-          </div>
-        ))}
+      <div>
+        <div className="background" />
+        <div className="recordings">
+          <h1>Recordings</h1>
+          <Sound url={this.state.url} playStatus={this.state.status} />
+          {this.state.recordings.map((e, i) => (
+            <div key={i} className="recording">
+              <Button onClick={() => this.play(e)}>{e.name}</Button>
+              <br />
+            </div>
+          ))}
+        </div>
       </div>
     );
   }
